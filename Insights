@@ -1,0 +1,111 @@
+
+
+🎮 When Was the Golden Era of Video Games?
+
+📌 Project Overview
+
+This project explores the golden era of video games by analyzing sales data alongside critic and user ratings. The goal is to identify:
+
+* The best-selling games of all time
+* The years with the highest critic acclaim
+* The years where both critics and users agreed on game quality
+
+
+📊 Dataset Summary
+
+The analysis uses three key tables:
+
+* `game_sales` → Game sales data
+* `reviews` → Critic and user ratings
+* `users_avg_year_rating` & `critics_avg_year_rating` → Precomputed yearly averages
+
+
+🥇 Top 10 Best-Selling Games
+
+The following games dominate global sales:
+
+| Rank | Game                             | Platform | Publisher | Sales (Millions) | Year |
+| ---- | -------------------------------- | -------- | --------- | ---------------- | ---- |
+| 1    | Wii Sports                       | Wii      | Nintendo  | 82.9             | 2006 |
+| 2    | Super Mario Bros.                | NES      | Nintendo  | 40.24            | 1985 |
+| 3    | Counter-Strike: Global Offensive | PC       | Valve     | 40.0             | 2012 |
+| 4    | Mario Kart Wii                   | Wii      | Nintendo  | 37.32            | 2008 |
+| 5    | PUBG                             | PC       | PUBG Corp | 36.6             | 2017 |
+| 6    | Minecraft                        | PC       | Mojang    | 33.15            | 2010 |
+| 7    | Wii Sports Resort                | Wii      | Nintendo  | 33.13            | 2009 |
+| 8    | Pokémon Red/Blue/Green           | GB       | Nintendo  | 31.38            | 1998 |
+| 9    | New Super Mario Bros.            | DS       | Nintendo  | 30.8             | 2006 |
+| 10   | New Super Mario Bros. Wii        | Wii      | Nintendo  | 30.3             | 2009 |
+
+🔍 Insights
+
+* Nintendo dominates the list (7/10 games)
+* The Wii platform appears most frequently → strong casual gaming market
+* Games span across decades → great games have long-lasting appeal
+* PC titles like CS:GO and Minecraft show the rise of online and sandbox gaming
+
+⭐ Top 10 Years by Critic Score
+
+| Year | Number of Games | Avg Critic Score |
+| ---- | --------------- | ---------------- |
+| 1998 | 10              | 9.32             |
+| 2004 | 11              | 9.03             |
+| 2002 | 9               | 8.99             |
+| 1999 | 11              | 8.93             |
+| 2001 | 13              | 8.82             |
+| 2011 | 26              | 8.76             |
+| 2016 | 13              | 8.67             |
+| 2013 | 18              | 8.66             |
+| 2008 | 20              | 8.63             |
+| 2017 | 13              | 8.62             |
+
+🔍 Insights
+
+* Late 90s (1998–1999) stand out as peak critic years
+* Early 2000s maintained consistent high-quality releases
+* Modern years (2010+) show higher volume but slightly lower average quality
+* 1998 is a standout → often considered a legendary year in gaming history
+
+🏆 Golden Years (Critics vs Users Agreement)
+
+| Year | Num Games | Critic Score | User Score | Difference |
+| ---- | --------- | ------------ | ---------- | ---------- |
+| 1997 | 8         | 7.93         | 9.50       | -1.57      |
+| 1998 | 10        | 9.32         | 9.40       | -0.08      |
+| 2004 | 11        | 9.03         | 8.55       | 0.48       |
+| 2008 | 20        | 8.63         | 9.03       | -0.40      |
+| 2009 | 20        | 8.55         | 9.18       | -0.63      |
+| 2010 | 23        | 8.41         | 9.24       | -0.83      |
+
+🔍 Insights
+
+1998 is the strongest “golden year”
+  * High critic score (9.32)
+  * High user score (9.40)
+  * Very small disagreement → strong consensus
+
+1997 shows a major gap
+  * Users loved games far more than critics
+
+2008–2010 era
+  * Users consistently rated games higher than critics
+  * Suggests rise of **player-driven experiences (online/multiplayer)**
+
+🎯 Final Conclusion
+
+🥇 The Golden Era: Late 1990s (Especially 1998)
+* Highest critic scores
+* Strong agreement between critics and users
+* Release of many iconic and influential games
+
+📈 Key Trends
+
+*Nintendo’s dominance shaped early gaming success
+*Shift from offline classics → online multiplayer experiences
+*Increasing number of releases over time, but quality consistency slightly drops
+
+🚀 Key Takeaways
+
+* The true golden era is not just about sales, but critical acclaim + player satisfaction
+* 1998 stands out as the peak year in gaming history
+* Modern gaming excels in scale, but older eras excel in impact and innovation
